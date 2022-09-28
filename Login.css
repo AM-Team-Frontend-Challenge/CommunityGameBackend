@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("resources/img/Background.jpeg");
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url("resources/img/Background.jpeg");
+    color: white;
+}
+
+
+.Logo{
+    margin: 17px;
+}
+
+.Logo span{
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    color: #d74412;
+}
+
+.Login{
+    text-align: center;
+    position: relative;
+    top: 12%;
+}
+
+.Login h3{
+    margin: 1%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.Login a{
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+.forms{
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.LabelPass{
+    margin-top: 13%;
+}
+
+.BoxEmail, .BoxPass{
+    margin-top: 9%;
+}
+
+.BoxEmail input, .BoxPass input{
+    width:230px;
+    border: 1.5px solid #000000;
+}
+
+.forms input[type="submit"]{
+	width:50%;
+	padding:8px 16px;
+	margin-top:32px;
+    margin-left: 25%;
+	border:1px solid #d74412;
+	border-radius:5px;
+	color:#fff;
+	background-color:#d74412;
+} 
+
+input[type="submit"]:hover{
+	cursor:pointer;
+}
