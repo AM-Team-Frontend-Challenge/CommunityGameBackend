@@ -21,19 +21,19 @@ body{
     color: #d74412;
 }
 
-.Login{
+.Signup{
     text-align: center;
     position: relative;
     top: 12%;
 }
 
-.Login h3{
+.Signup h3{
     margin: 1%;
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
 }
 
-.Login a{
+.Signup a{
     text-decoration: none;
     color: white;
     font-family: 'DM Sans', sans-serif;
@@ -49,15 +49,15 @@ body{
     margin-top: 3%;
 }
 
-.LabelPass{
+.LabelPass, .LabelUsser{
     margin-top: 13%;
 }
 
-.BoxEmail, .BoxPass{
+.BoxEmail, .BoxPass, .BoxUsser{
     margin-top: 9%;
 }
 
-.BoxEmail input, .BoxPass input{
+.BoxEmail input, .BoxPass input, .BoxUsser input{
     width:230px;
     border: 1.5px solid #000000;
 }
